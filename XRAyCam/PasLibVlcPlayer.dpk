@@ -1,0 +1,89 @@
+(*
+ * PasLibVlcPlayerUnit.dpk - VCL component for libvlc 1.1.4
+ *
+ * See copyright notice below.
+ *
+ * Last modified: 2010.09.02
+ *
+ * author: Robert Jêdrzejczyk
+ * e-mail: robert@prog.olsztyn.pl
+ *    www: http://www.prog.olsztyn.pl/libvlc
+ *
+ * 2010.09.02 Robert Jêdrzejczyk
+ *
+ * Check working with libvlc 1.1.4
+ *)
+
+(* This is file is part of PasLibVlcPlayerDemo program
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ *
+ * Any non-GPL usage of this software or parts of this software is strictly
+ * forbidden.
+ *
+ * The "appropriate copyright message" mentioned in section 2c of the GPLv2
+ * must read: "Code from FAAD2 is copyright (c) Nero AG, www.nero.com"
+ *
+ * Commercial non-GPL licensing of this software is possible.
+ * please contact robert@prog.olsztyn.pl
+ *
+ *)
+
+(*
+ * libvlc is part of project VideoLAN
+ *
+ * Copyright (c) 1996-2010 VideoLAN Team
+ *
+ * For more information about VideoLAN
+ *
+ * please visit http://www.videolan.org
+ *
+ *)
+
+package PasLibVlcPlayer;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'PasLibVlcPlayer design time package'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  PasLibVlcPlayerUnit in 'PasLibVlcPlayerUnit.pas';
+
+end.
